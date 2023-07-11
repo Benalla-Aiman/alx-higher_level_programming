@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from_json_string = __import__('4-from_json_string').from_json_string
+from_json_string = __import__("4-from_json_string").from_json_string
 
 s_my_list = "[1, 2, 3]"
 my_list = from_json_string(s_my_list)
@@ -23,4 +23,3 @@ try:
     print(type(my_dict))
 except Exception as e:
     print("[{}] {}".format(e.__class__.__name__, e))
-
